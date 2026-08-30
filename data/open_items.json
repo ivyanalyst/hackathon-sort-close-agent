@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Client_A_Proposal_Draft.docx",
+    "type": "doc",
+    "task": "Client Proposal",
+    "status": "in_progress"
+  },
+  {
+    "id": 2,
+    "title": "Google Sheets - Client Proposal Pricing",
+    "type": "tab",
+    "task": "Client Proposal",
+    "status": "done"
+  },
+  {
+    "id": 3,
+    "title": "W2_Statement_2025.pdf",
+    "type": "doc",
+    "task": "Tax Filing",
+    "status": "done"
+  },
+  {
+    "id": 4,
+    "title": "TurboTax - 2025 Tax Return Filing",
+    "type": "tab",
+    "task": "Tax Filing",
+    "status": "in_progress"
+  },
+  {
+    "id": 5,
+    "title": "Figma - Web Redesign - Wireframe v2",
+    "type": "tab",
+    "task": "Website Redesign",
+    "status": "in_progress"
+  },
+  {
+    "id": 6,
+    "title": "logo_revised_transparent.png",
+    "type": "doc",
+    "task": "Website Redesign",
+    "status": "done"
+  },
+  {
+    "id": 7,
+    "title": "Presentation_Slides_Final.pptx",
+    "type": "doc",
+    "task": "Conference Prep",
+    "status": "done"
+  },
+  {
+    "id": 8,
+    "title": "Conference Registration & Schedule",
+    "type": "tab",
+    "task": "Conference Prep",
+    "status": "in_progress"
+  },
+  {
+    "id": 9,
+    "title": "Untitled Document",
+    "type": "doc",
+    "task": null,
+    "status": "unclear"
+  },
+  {
+    "id": 10,
+    "title": "New Tab",
+    "type": "tab",
+    "task": null,
+    "status": "unclear"
+  }
+]
