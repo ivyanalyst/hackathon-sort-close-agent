@@ -29,3 +29,6 @@ If the agent cannot confidently assign a file to one of the 4 tasks, it must rou
 
 ## Baseline (for comparison)
 The baseline sorts using ONLY file extension + creation date (no filename keyword reasoning) into `/Sorted_Baseline/{Extension}/{Date}/filename`, mimicking default OS file explorer sort behavior. It has no concept of "task" and no _Needs_Review fallback — it always makes a decision.
+
+## Model choice
+The agent uses gemini-3.5-flash-lite rather than gemini-3.5-flash. This was a deliberate choice after observing gemini-3.5-flash's free-tier daily quota (20 requests/day) repeatedly blocked iterative testing during development. flash-lite has a separate, more workable quota for a project of this scale, and showed no observable difference in classification accuracy or reasoning quality on this task during side-by-side testing (both achieved 100% accuracy on the same test files).
