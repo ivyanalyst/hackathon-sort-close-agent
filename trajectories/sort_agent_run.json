@@ -1,9 +1,54 @@
 [
   {
+    "file": "Presentation_Slides_Final.pptx",
+    "task": "Conference Prep",
+    "confidence": "high",
+    "reasoning": "The filename and content explicitly indicate that the file consists of final presentation slides for a conference talk.",
+    "date": "2026-08-30",
+    "destination": "data/Sorted_Agent/Conference Prep/2026-08-30/Presentation_Slides_Final.pptx",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Tax_Return_Form_1040_Signed.pdf",
+    "task": "Tax Filing",
+    "confidence": "high",
+    "reasoning": "The filename and content explicitly reference Form 1040 individual income tax return submission.",
+    "date": "2026-08-18",
+    "destination": "data/Sorted_Agent/Tax Filing/2026-08-18/Tax_Return_Form_1040_Signed.pdf",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Keynote_Draft_v1.pptx",
+    "task": "Conference Prep",
+    "confidence": "high",
+    "reasoning": "The filename and content clearly indicate a keynote presentation draft for an upcoming conference talk.",
+    "date": "2026-08-24",
+    "destination": "data/Sorted_Agent/Conference Prep/2026-08-24/Keynote_Draft_v1.pptx",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "logo_revised_transparent.png",
+    "task": "Website Redesign",
+    "confidence": "high",
+    "reasoning": "The file content explicitly states that the revised logo asset is updated for the website redesign.",
+    "date": "2026-08-22",
+    "destination": "data/Sorted_Agent/Website Redesign/2026-08-22/logo_revised_transparent.png",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Meeting_Summary.pdf",
+    "task": null,
+    "confidence": "low",
+    "reasoning": "The filename and content are too generic to confidently map to any of the specific task categories.",
+    "date": "2026-08-19",
+    "destination": "data/Sorted_Agent/_Needs_Review/Meeting_Summary.pdf",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
     "file": "Form_1099_NEC_Draft.pdf",
     "task": "Tax Filing",
     "confidence": "high",
-    "reasoning": "The file is explicitly a draft of Form 1099-NEC used for reporting nonemployee compensation for tax purposes.",
+    "reasoning": "The filename and content explicitly reference Form 1099-NEC and tax filing deadlines.",
     "date": "2026-08-13",
     "destination": "data/Sorted_Agent/Tax Filing/2026-08-13/Form_1099_NEC_Draft.pdf",
     "model_used": "gemini-3.5-flash-lite"
@@ -12,16 +57,34 @@
     "file": "homepage_wireframe_v2.pdf",
     "task": "Website Redesign",
     "confidence": "high",
-    "reasoning": "The filename and content clearly indicate a wireframe for a new homepage layout, which falls under website redesign.",
+    "reasoning": "The filename and content clearly reference a homepage wireframe and layout, which directly corresponds to a website redesign task.",
     "date": "2026-08-16",
     "destination": "data/Sorted_Agent/Website Redesign/2026-08-16/homepage_wireframe_v2.pdf",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Proposal_Feedback.docx",
+    "task": "Conference Prep",
+    "confidence": "high",
+    "reasoning": "The file content explicitly discusses feedback from conference organizers on a submitted talk proposal and preparations for the event.",
+    "date": "2026-08-23",
+    "destination": "data/Sorted_Agent/Conference Prep/2026-08-23/Proposal_Feedback.docx",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "website_assets_icons.zip",
+    "task": "Website Redesign",
+    "confidence": "high",
+    "reasoning": "The filename and content explicitly mention icon assets for the website redesign project.",
+    "date": "2026-08-20",
+    "destination": "data/Sorted_Agent/Website Redesign/2026-08-20/website_assets_icons.zip",
     "model_used": "gemini-3.5-flash-lite"
   },
   {
     "file": "landing_page_feedback.pdf",
     "task": "Website Redesign",
     "confidence": "high",
-    "reasoning": "The file content discusses stakeholder feedback and layout adjustments for a new landing page design, which directly aligns with a website redesign project.",
+    "reasoning": "The file concerns stakeholder feedback and layout adjustments for a new landing page design.",
     "date": "2026-08-25",
     "destination": "data/Sorted_Agent/Website Redesign/2026-08-25/landing_page_feedback.pdf",
     "model_used": "gemini-3.5-flash-lite"
@@ -30,7 +93,7 @@
     "file": "Pricing_Model_Final.xlsx",
     "task": "Client Proposal",
     "confidence": "high",
-    "reasoning": "The file content explicitly states that the spreadsheet is for the Client A proposal.",
+    "reasoning": "The file content explicitly mentions it is the final pricing model for the Client A proposal.",
     "date": "2026-08-06",
     "destination": "data/Sorted_Agent/Client Proposal/2026-08-06/Pricing_Model_Final.xlsx",
     "model_used": "gemini-3.5-flash-lite"
@@ -39,7 +102,7 @@
     "file": "Conference_Schedule_Overview.docx",
     "task": "Conference Prep",
     "confidence": "high",
-    "reasoning": "The filename and content explicitly mention conference scheduling and session details, matching the Conference Prep task category.",
+    "reasoning": "The filename and content explicitly discuss a conference schedule and session times, aligning directly with Conference Prep.",
     "date": "2026-08-28",
     "destination": "data/Sorted_Agent/Conference Prep/2026-08-28/Conference_Schedule_Overview.docx",
     "model_used": "gemini-3.5-flash-lite"
@@ -48,16 +111,25 @@
     "file": "W2_Statement_2025.pdf",
     "task": "Tax Filing",
     "confidence": "high",
-    "reasoning": "The filename and content explicitly reference a W-2 wage and tax statement for annual tax filing.",
+    "reasoning": "The filename and content explicitly mention a W-2 wage and tax statement for the annual tax filing.",
     "date": "2026-08-12",
     "destination": "data/Sorted_Agent/Tax Filing/2026-08-12/W2_Statement_2025.pdf",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Demo_Prep_Notes.docx",
+    "task": "Conference Prep",
+    "confidence": "high",
+    "reasoning": "The file content explicitly mentions preparing a demo for an upcoming conference presentation.",
+    "date": "2026-08-27",
+    "destination": "data/Sorted_Agent/Conference Prep/2026-08-27/Demo_Prep_Notes.docx",
     "model_used": "gemini-3.5-flash-lite"
   },
   {
     "file": "Notes.docx",
     "task": null,
     "confidence": "low",
-    "reasoning": "The filename and content are too generic to determine which specific project or task the notes belong to.",
+    "reasoning": "The filename and content are too generic to confidently map the notes to any specific task.",
     "date": "2026-08-11",
     "destination": "data/Sorted_Agent/_Needs_Review/Notes.docx",
     "model_used": "gemini-3.5-flash-lite"
@@ -66,7 +138,7 @@
     "file": "Proposal_Final_Submitted.docx",
     "task": "Client Proposal",
     "confidence": "high",
-    "reasoning": "The filename and content explicitly indicate it is a final proposal submitted to a client.",
+    "reasoning": "The filename and content explicitly indicate a final proposal submitted to a client for signature.",
     "date": "2026-08-10",
     "destination": "data/Sorted_Agent/Client Proposal/2026-08-10/Proposal_Final_Submitted.docx",
     "model_used": "gemini-3.5-flash-lite"
@@ -84,7 +156,7 @@
     "file": "Client_A_Feedback_Notes.docx",
     "task": "Client Proposal",
     "confidence": "high",
-    "reasoning": "The file contains review notes and requests regarding the timeline and payment terms from Client A, which directly relate to an ongoing client proposal process.",
+    "reasoning": "The file contains review notes and timeline/payment discussions specifically from a client, which aligns directly with the proposal and negotiation phase.",
     "date": "2026-08-08",
     "destination": "data/Sorted_Agent/Client Proposal/2026-08-08/Client_A_Feedback_Notes.docx",
     "model_used": "gemini-3.5-flash-lite"
@@ -93,7 +165,7 @@
     "file": "Business_Expenses_Receipts.pdf",
     "task": "Tax Filing",
     "confidence": "high",
-    "reasoning": "The filename and content explicitly mention business expense receipts to support the 2025 tax filing.",
+    "reasoning": "The filename and content explicitly reference business expenses and receipts for tax filing purposes.",
     "date": "2026-08-15",
     "destination": "data/Sorted_Agent/Tax Filing/2026-08-15/Business_Expenses_Receipts.pdf",
     "model_used": "gemini-3.5-flash-lite"
@@ -102,7 +174,7 @@
     "file": "Project_Timeline_V1.xlsx",
     "task": "Client Proposal",
     "confidence": "high",
-    "reasoning": "The file content explicitly mentions a project timeline and delivery dates for the Client A engagement, which falls under client proposal and project planning.",
+    "reasoning": "The file content explicitly mentions a project timeline and delivery dates for the Client A engagement, which aligns with client proposal preparations.",
     "date": "2026-08-04",
     "destination": "data/Sorted_Agent/Client Proposal/2026-08-04/Project_Timeline_V1.xlsx",
     "model_used": "gemini-3.5-flash-lite"
@@ -111,9 +183,18 @@
     "file": "Speaker_Bio_And_Abstract.docx",
     "task": "Conference Prep",
     "confidence": "high",
-    "reasoning": "The filename and content explicitly mention speaker biography and session abstract submission for a conference program.",
+    "reasoning": "The filename and content explicitly mention a speaker bio and session abstract submitted for a conference program.",
     "date": "2026-08-26",
     "destination": "data/Sorted_Agent/Conference Prep/2026-08-26/Speaker_Bio_And_Abstract.docx",
+    "model_used": "gemini-3.5-flash-lite"
+  },
+  {
+    "file": "Client_A_Proposal_Draft.docx",
+    "task": "Client Proposal",
+    "confidence": "high",
+    "reasoning": "The filename and content explicitly indicate a proposal draft for a client engagement.",
+    "date": "2026-08-03",
+    "destination": "data/Sorted_Agent/Client Proposal/2026-08-03/Client_A_Proposal_Draft.docx",
     "model_used": "gemini-3.5-flash-lite"
   }
 ]

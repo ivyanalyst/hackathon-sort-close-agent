@@ -5,7 +5,8 @@
     "task": "Client Proposal",
     "status": "in_progress",
     "decision": "KEEP_OPEN",
-    "reasoning": "Task 'Client Proposal' is still in progress \u2014 must not close."
+    "reasoning": "Task 'Client Proposal' is still in progress \u2014 must not close.",
+    "human_summary": null
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "task": "Client Proposal",
     "status": "done",
     "decision": "CLOSE",
-    "reasoning": "Task 'Client Proposal' is marked done \u2014 safe to close."
+    "reasoning": "Task 'Client Proposal' is marked done \u2014 safe to close.",
+    "human_summary": null
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "task": "Tax Filing",
     "status": "done",
     "decision": "CLOSE",
-    "reasoning": "Task 'Tax Filing' is marked done \u2014 safe to close."
+    "reasoning": "Task 'Tax Filing' is marked done \u2014 safe to close.",
+    "human_summary": null
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "task": "Tax Filing",
     "status": "in_progress",
     "decision": "KEEP_OPEN",
-    "reasoning": "Task 'Tax Filing' is still in progress \u2014 must not close."
+    "reasoning": "Task 'Tax Filing' is still in progress \u2014 must not close.",
+    "human_summary": null
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "task": "Website Redesign",
     "status": "in_progress",
     "decision": "KEEP_OPEN",
-    "reasoning": "Task 'Website Redesign' is still in progress \u2014 must not close."
+    "reasoning": "Task 'Website Redesign' is still in progress \u2014 must not close.",
+    "human_summary": null
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "task": "Website Redesign",
     "status": "done",
     "decision": "CLOSE",
-    "reasoning": "Task 'Website Redesign' is marked done \u2014 safe to close."
+    "reasoning": "Task 'Website Redesign' is marked done \u2014 safe to close.",
+    "human_summary": null
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "task": "Conference Prep",
     "status": "done",
     "decision": "CLOSE",
-    "reasoning": "Task 'Conference Prep' is marked done \u2014 safe to close."
+    "reasoning": "Task 'Conference Prep' is marked done \u2014 safe to close.",
+    "human_summary": null
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "task": "Conference Prep",
     "status": "in_progress",
     "decision": "KEEP_OPEN",
-    "reasoning": "Task 'Conference Prep' is still in progress \u2014 must not close."
+    "reasoning": "Task 'Conference Prep' is still in progress \u2014 must not close.",
+    "human_summary": null
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "task": null,
     "status": "unclear",
     "decision": "NEEDS_CONFIRMATION",
-    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing."
+    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing.",
+    "human_summary": "This untitled document doesn't match any active tasks; review it to decide whether to keep or close."
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "task": null,
     "status": "unclear",
     "decision": "NEEDS_CONFIRMATION",
-    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing."
+    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing.",
+    "human_summary": "This unassigned tab has no clear context, so you can safely close it if not needed."
   }
 ]

@@ -1,7 +1,7 @@
 {
   "agent_accuracy": 1.0,
-  "agent_correct": 20,
-  "agent_total": 20,
+  "agent_correct": 22,
+  "agent_total": 22,
   "details": [
     {
       "file": "Client_A_Proposal_Draft.docx",
@@ -121,6 +121,18 @@
       "file": "Meeting_Summary.pdf",
       "expected": "_Needs_Review",
       "agent_placed_in": "_Needs_Review",
+      "correct": true
+    },
+    {
+      "file": "Proposal_Feedback.docx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "Conference Prep",
+      "correct": true
+    },
+    {
+      "file": "Demo_Prep_Notes.docx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "Conference Prep",
       "correct": true
     }
   ]
