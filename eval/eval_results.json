@@ -1,0 +1,127 @@
+{
+  "agent_accuracy": 0.35,
+  "agent_correct": 7,
+  "agent_total": 20,
+  "details": [
+    {
+      "file": "Client_A_Proposal_Draft.docx",
+      "expected": "Client Proposal",
+      "agent_placed_in": "Client Proposal",
+      "correct": true
+    },
+    {
+      "file": "Client_A_Feedback_Notes.docx",
+      "expected": "Client Proposal",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Proposal_Final_Submitted.docx",
+      "expected": "Client Proposal",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Pricing_Model_Final.xlsx",
+      "expected": "Client Proposal",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Project_Timeline_V1.xlsx",
+      "expected": "Client Proposal",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "W2_Statement_2025.pdf",
+      "expected": "Tax Filing",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Form_1099_NEC_Draft.pdf",
+      "expected": "Tax Filing",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Tax_Return_Form_1040_Signed.pdf",
+      "expected": "Tax Filing",
+      "agent_placed_in": "Tax Filing",
+      "correct": true
+    },
+    {
+      "file": "Business_Expenses_Receipts.pdf",
+      "expected": "Tax Filing",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "homepage_wireframe_v2.pdf",
+      "expected": "Website Redesign",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "hero_image_draft.png",
+      "expected": "Website Redesign",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "logo_revised_transparent.png",
+      "expected": "Website Redesign",
+      "agent_placed_in": "Website Redesign",
+      "correct": true
+    },
+    {
+      "file": "website_assets_icons.zip",
+      "expected": "Website Redesign",
+      "agent_placed_in": "Website Redesign",
+      "correct": true
+    },
+    {
+      "file": "landing_page_feedback.pdf",
+      "expected": "Website Redesign",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Keynote_Draft_v1.pptx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "Conference Prep",
+      "correct": true
+    },
+    {
+      "file": "Speaker_Bio_And_Abstract.docx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Conference_Schedule_Overview.docx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Presentation_Slides_Final.pptx",
+      "expected": "Conference Prep",
+      "agent_placed_in": "Conference Prep",
+      "correct": true
+    },
+    {
+      "file": "Notes.docx",
+      "expected": "_Needs_Review",
+      "agent_placed_in": "NOT_FOUND",
+      "correct": false
+    },
+    {
+      "file": "Meeting_Summary.pdf",
+      "expected": "_Needs_Review",
+      "agent_placed_in": "_Needs_Review",
+      "correct": true
+    }
+  ]
+}
