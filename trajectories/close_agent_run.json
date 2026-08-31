@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Client_A_Proposal_Draft.docx",
+    "task": "Client Proposal",
+    "status": "in_progress",
+    "decision": "KEEP_OPEN",
+    "reasoning": "Task 'Client Proposal' is still in progress \u2014 must not close."
+  },
+  {
+    "id": 2,
+    "title": "Google Sheets - Client Proposal Pricing",
+    "task": "Client Proposal",
+    "status": "done",
+    "decision": "CLOSE",
+    "reasoning": "Task 'Client Proposal' is marked done \u2014 safe to close."
+  },
+  {
+    "id": 3,
+    "title": "W2_Statement_2025.pdf",
+    "task": "Tax Filing",
+    "status": "done",
+    "decision": "CLOSE",
+    "reasoning": "Task 'Tax Filing' is marked done \u2014 safe to close."
+  },
+  {
+    "id": 4,
+    "title": "TurboTax - 2025 Tax Return Filing",
+    "task": "Tax Filing",
+    "status": "in_progress",
+    "decision": "KEEP_OPEN",
+    "reasoning": "Task 'Tax Filing' is still in progress \u2014 must not close."
+  },
+  {
+    "id": 5,
+    "title": "Figma - Web Redesign - Wireframe v2",
+    "task": "Website Redesign",
+    "status": "in_progress",
+    "decision": "KEEP_OPEN",
+    "reasoning": "Task 'Website Redesign' is still in progress \u2014 must not close."
+  },
+  {
+    "id": 6,
+    "title": "logo_revised_transparent.png",
+    "task": "Website Redesign",
+    "status": "done",
+    "decision": "CLOSE",
+    "reasoning": "Task 'Website Redesign' is marked done \u2014 safe to close."
+  },
+  {
+    "id": 7,
+    "title": "Presentation_Slides_Final.pptx",
+    "task": "Conference Prep",
+    "status": "done",
+    "decision": "CLOSE",
+    "reasoning": "Task 'Conference Prep' is marked done \u2014 safe to close."
+  },
+  {
+    "id": 8,
+    "title": "Conference Registration & Schedule",
+    "task": "Conference Prep",
+    "status": "in_progress",
+    "decision": "KEEP_OPEN",
+    "reasoning": "Task 'Conference Prep' is still in progress \u2014 must not close."
+  },
+  {
+    "id": 9,
+    "title": "Untitled Document",
+    "task": null,
+    "status": "unclear",
+    "decision": "NEEDS_CONFIRMATION",
+    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing."
+  },
+  {
+    "id": 10,
+    "title": "New Tab",
+    "task": null,
+    "status": "unclear",
+    "decision": "NEEDS_CONFIRMATION",
+    "reasoning": "Task is unclear or unassigned \u2014 flagging for human review rather than guessing."
+  }
+]
