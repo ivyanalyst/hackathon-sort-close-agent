@@ -21,7 +21,7 @@ OUTPUT_DIR = Path("data/Sorted_Agent")
 TRAJECTORY_LOG = Path("trajectories/sort_agent_run.json")
 
 TASKS = ["Client Proposal", "Tax Filing", "Website Redesign", "Conference Prep"]
-MODEL_NAME = "gemini-3.5-flash-lite"
+MODEL_NAME = "gemini-3.5-flash"
 
 PROMPT_TEMPLATE = """You are a file-sorting assistant. Classify the following file into exactly ONE of these tasks: {tasks}
 
