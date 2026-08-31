@@ -143,12 +143,27 @@ def sort_agent():
         print(f"  -> {task or 'NEEDS REVIEW'} ({result.get('confidence')}): {result.get('reasoning')}")
 
     TRAJECTORY_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(TRAJECTORY_LOG, "w") as f:
-        json.dump(trajectory, f, indent=2)
 
-    print(f"\nDone. {len(trajectory)} files processed.")
+    # Merge with any existing trajectory log instead of overwriting,
+    # so partial/incremental re-runs don't lose earlier history.
+    existing_trajectory = []
+    if TRAJECTORY_LOG.exists():
+        with open(TRAJECTORY_LOG) as f:
+            existing_trajectory = json.load(f)
+
+    existing_by_file = {entry["file"]: entry for entry in existing_trajectory if "file" in entry}
+    for entry in trajectory:
+        existing_by_file[entry["file"]] = entry  # new entries overwrite old ones for the same file
+
+    merged_trajectory = list(existing_by_file.values())
+
+    with open(TRAJECTORY_LOG, "w") as f:
+        json.dump(merged_trajectory, f, indent=2)
+
+    print(f"\nDone. {len(trajectory)} files processed this run.")
+    print(f"Trajectory log now contains {len(merged_trajectory)} total entries.")
     print(f"Trajectory log saved to {TRAJECTORY_LOG}")
-    return trajectory
+    return merged_trajectory
 
 
 if __name__ == "__main__":
