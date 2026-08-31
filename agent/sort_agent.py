@@ -89,14 +89,31 @@ def sort_agent():
 
     trajectory = []
 
+    already_processed = set()
+    for existing in OUTPUT_DIR.rglob("*"):
+        if existing.is_file():
+            already_processed.add(existing.name)
+
     for file in files:
+        if file.name in already_processed:
+            print(f"Skipping (already processed): {file.name}")
+            continue
         print(f"Classifying: {file.name} ...")
         try:
             result = classify_file(file)
         except Exception as e:
             print(f"  ERROR: {e}")
-            trajectory.append({"file": file.name, "error": str(e)})
-            continue
+            dest_folder = OUTPUT_DIR / "_Needs_Review"
+            dest_folder.mkdir(parents=True, exist_ok=True)
+            dest_path = dest_folder / file.name
+            shutil.copy2(file, dest_path)
+            trajectory.append({
+                "file": file.name,
+                "task": None,
+                "confidence": "error",
+                "reasoning": f"API error: {str(e)[:150]}",
+                "destination": str(dest_path)
+            })
 
         task = result.get("task")
         date_str = result.get("date")
