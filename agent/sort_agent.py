@@ -21,7 +21,7 @@ OUTPUT_DIR = Path("data/Sorted_Agent")
 TRAJECTORY_LOG = Path("trajectories/sort_agent_run.json")
 
 TASKS = ["Client Proposal", "Tax Filing", "Website Redesign", "Conference Prep"]
-MODEL_NAME = "gemini-3.5-flash"
+MODEL_NAME = "gemini-3.5-flash-lite"
 
 PROMPT_TEMPLATE = """You are a file-sorting assistant. Classify the following file into exactly ONE of these tasks: {tasks}
 
@@ -112,7 +112,8 @@ def sort_agent():
                 "task": None,
                 "confidence": "error",
                 "reasoning": f"API error: {str(e)[:150]}",
-                "destination": str(dest_path)
+                "destination": str(dest_path),
+                "model_used": MODEL_NAME
             })
             print(f"  -> NEEDS REVIEW (error): {str(e)[:80]}")
             continue
@@ -135,7 +136,8 @@ def sort_agent():
             "confidence": result.get("confidence"),
             "reasoning": result.get("reasoning"),
             "date": date_str,
-            "destination": str(dest_path)
+            "destination": str(dest_path),
+            "model_used": MODEL_NAME
         }
         trajectory.append(log_entry)
         print(f"  -> {task or 'NEEDS REVIEW'} ({result.get('confidence')}): {result.get('reasoning')}")

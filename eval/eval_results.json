@@ -1,6 +1,6 @@
 {
-  "agent_accuracy": 0.35,
-  "agent_correct": 7,
+  "agent_accuracy": 1.0,
+  "agent_correct": 20,
   "agent_total": 20,
   "details": [
     {
@@ -12,38 +12,38 @@
     {
       "file": "Client_A_Feedback_Notes.docx",
       "expected": "Client Proposal",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Client Proposal",
+      "correct": true
     },
     {
       "file": "Proposal_Final_Submitted.docx",
       "expected": "Client Proposal",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Client Proposal",
+      "correct": true
     },
     {
       "file": "Pricing_Model_Final.xlsx",
       "expected": "Client Proposal",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Client Proposal",
+      "correct": true
     },
     {
       "file": "Project_Timeline_V1.xlsx",
       "expected": "Client Proposal",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Client Proposal",
+      "correct": true
     },
     {
       "file": "W2_Statement_2025.pdf",
       "expected": "Tax Filing",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Tax Filing",
+      "correct": true
     },
     {
       "file": "Form_1099_NEC_Draft.pdf",
       "expected": "Tax Filing",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Tax Filing",
+      "correct": true
     },
     {
       "file": "Tax_Return_Form_1040_Signed.pdf",
@@ -54,20 +54,20 @@
     {
       "file": "Business_Expenses_Receipts.pdf",
       "expected": "Tax Filing",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Tax Filing",
+      "correct": true
     },
     {
       "file": "homepage_wireframe_v2.pdf",
       "expected": "Website Redesign",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Website Redesign",
+      "correct": true
     },
     {
       "file": "hero_image_draft.png",
       "expected": "Website Redesign",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Website Redesign",
+      "correct": true
     },
     {
       "file": "logo_revised_transparent.png",
@@ -84,8 +84,8 @@
     {
       "file": "landing_page_feedback.pdf",
       "expected": "Website Redesign",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Website Redesign",
+      "correct": true
     },
     {
       "file": "Keynote_Draft_v1.pptx",
@@ -96,14 +96,14 @@
     {
       "file": "Speaker_Bio_And_Abstract.docx",
       "expected": "Conference Prep",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Conference Prep",
+      "correct": true
     },
     {
       "file": "Conference_Schedule_Overview.docx",
       "expected": "Conference Prep",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "Conference Prep",
+      "correct": true
     },
     {
       "file": "Presentation_Slides_Final.pptx",
@@ -114,8 +114,8 @@
     {
       "file": "Notes.docx",
       "expected": "_Needs_Review",
-      "agent_placed_in": "NOT_FOUND",
-      "correct": false
+      "agent_placed_in": "_Needs_Review",
+      "correct": true
     },
     {
       "file": "Meeting_Summary.pdf",
