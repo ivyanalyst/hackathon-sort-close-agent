@@ -114,6 +114,8 @@ def sort_agent():
                 "reasoning": f"API error: {str(e)[:150]}",
                 "destination": str(dest_path)
             })
+            print(f"  -> NEEDS REVIEW (error): {str(e)[:80]}")
+            continue
 
         task = result.get("task")
         date_str = result.get("date")
