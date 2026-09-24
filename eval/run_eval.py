@@ -22,10 +22,9 @@ def load_ground_truth():
 def find_file_task_agent(filename: str) -> str | None:
     """Return the task-folder a file landed in under Sorted_Agent, or None if not found."""
     for path in AGENT_DIR.rglob(filename):
-        # path looks like Sorted_Agent/{Task}/{Date}/{filename} or Sorted_Agent/_Needs_Review/{filename}
         relative = path.relative_to(AGENT_DIR)
         top_folder = relative.parts[0]
-        return top_folder  # task name, or "_Needs_Review"
+        return top_folder  
     return "NOT_FOUND"
 
 
@@ -47,7 +46,6 @@ def evaluate():
         agent_location = find_file_task_agent(filename)
 
         if true_task is None:
-            # Ambiguous case — correct behavior is landing in _Needs_Review
             is_correct = (agent_location == "_Needs_Review")
             expected = "_Needs_Review"
         else:
