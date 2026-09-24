@@ -151,7 +151,7 @@ def sort_agent():
 
     existing_by_file = {entry["file"]: entry for entry in existing_trajectory if "file" in entry}
     for entry in trajectory:
-        existing_by_file[entry["file"]] = entry  # new entries overwrite old ones for the same file
+        existing_by_file[entry["file"]] = entry  
 
     merged_trajectory = list(existing_by_file.values())
 
