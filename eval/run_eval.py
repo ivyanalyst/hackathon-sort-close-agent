@@ -20,7 +20,6 @@ def load_ground_truth():
 
 
 def find_file_task_agent(filename: str) -> str | None:
-    """Return the task-folder a file landed in under Sorted_Agent, or None if not found."""
     for path in AGENT_DIR.rglob(filename):
         relative = path.relative_to(AGENT_DIR)
         top_folder = relative.parts[0]
@@ -29,7 +28,6 @@ def find_file_task_agent(filename: str) -> str | None:
 
 
 def find_file_in_baseline(filename: str) -> str:
-    """Baseline has no task concept — just confirm the file exists somewhere."""
     for path in BASELINE_DIR.rglob(filename):
         return str(path.relative_to(BASELINE_DIR))
     return "NOT_FOUND"
