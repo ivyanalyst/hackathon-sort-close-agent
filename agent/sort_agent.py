@@ -144,8 +144,6 @@ def sort_agent():
 
     TRAJECTORY_LOG.parent.mkdir(parents=True, exist_ok=True)
 
-    # Merge with any existing trajectory log instead of overwriting,
-    # so partial/incremental re-runs don't lose earlier history.
     existing_trajectory = []
     if TRAJECTORY_LOG.exists():
         with open(TRAJECTORY_LOG) as f:
